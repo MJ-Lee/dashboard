@@ -12,7 +12,7 @@
 				<c:SideBar></c:SideBar>
 			</b:Column>
 			<b:Column size="MD_10,LG_10">
-				<c:Content></c:Content>
+				<c:Layout></c:Layout>
 			</b:Column>
 		</b:Row>
 	</g:HTMLPanel>
