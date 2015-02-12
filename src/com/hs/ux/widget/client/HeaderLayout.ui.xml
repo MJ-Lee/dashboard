@@ -1,0 +1,26 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:b="urn:import:org.gwtbootstrap3.client.ui"
+	xmlns:c="urn:import:com.hs.ux.widget.client">
+	<ui:style>
+	.important {
+	}
+	</ui:style>
+	<g:HTMLPanel>
+		<b:Navbar>
+			<b:NavbarHeader>
+			</b:NavbarHeader>
+			<b:NavPills>
+				<b:DropDownMenu>
+			      <b:AnchorListItem>
+			      	<b:Icon type="fa-envelope"></b:Icon>
+			      	<b:Label type="WARNING">15</b:Label>			      
+			      </b:AnchorListItem>
+			      
+			    </b:DropDownMenu>
+			</b:NavPills>
+		</b:Navbar>
+	
+	</g:HTMLPanel>
+</ui:UiBinder> 
